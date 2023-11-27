@@ -87,24 +87,32 @@ public class PlayerController : MonoBehaviour
 
        Invoke ("Restart", 0);
     }
-    public TextMeshProUGUI gameOverText;
-public Button restartButton; 
-public bool isGameActive;
-
-
-
-public void GameOver()
-    {
-        gameOverText.gameObject.SetActive(true);
-        restartButton.gameObject.SetActive(true);
-        isGameActive = false;
+    void Restart(){
+SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
-
-    // Restart game by reloading the scene
-    public void RestartGame()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        Debug.Log("penis");
+    
     }
+   
+   
+   
+//     public TextMeshProUGUI gameOverText;
+// public Button restartButton; 
+// public bool isGameActive;
 
-}
+
+
+// public void GameOver()
+//     {
+//         gameOverText.gameObject.SetActive(true);
+//         restartButton.gameObject.SetActive(true);
+//         isGameActive = false;
+//     }
+
+//     // Restart game by reloading the scene
+//     public void RestartGame()
+//     {
+//         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+//         Debug.Log("penis");
+//     }
+
+// }
