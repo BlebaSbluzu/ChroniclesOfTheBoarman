@@ -15,7 +15,7 @@ public class GroundSpawner : MonoBehaviour
 
     private void Start()
     {
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 50; i++) {
             SpawnTile();
         }
            
