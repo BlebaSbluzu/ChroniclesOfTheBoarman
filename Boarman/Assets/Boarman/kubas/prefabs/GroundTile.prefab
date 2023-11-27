@@ -210,6 +210,7 @@ GameObject:
   - component: {fileID: 987722434447567202}
   - component: {fileID: 934897660702759436}
   - component: {fileID: -6925711626700585004}
+  - component: {fileID: 8975034080100454995}
   m_Layer: 0
   m_Name: GroundTile
   m_TagString: Untagged
@@ -271,6 +272,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   obstaclePrefab: {fileID: 4788776677340667656, guid: a136a1439feb23d4e9274b3faa2aa2de, type: 3}
+--- !u!114 &8975034080100454995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8534695075084033553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87e32bc0e71822945b802a9eea2a31e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8997330266806987266
 GameObject:
   m_ObjectHideFlags: 0
