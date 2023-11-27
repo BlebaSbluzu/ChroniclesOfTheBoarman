@@ -596,7 +596,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8191040339041488510, guid: 5b6f9caefa8fc8a4b85d546b9d431bb8, type: 3}
       propertyPath: m_TagString
-      value: Player
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -608,6 +608,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8191040339041488510, guid: 5b6f9caefa8fc8a4b85d546b9d431bb8, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2033430581}
+    - targetCorrespondingSourceObject: {fileID: 8191040339041488510, guid: 5b6f9caefa8fc8a4b85d546b9d431bb8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2033430582}
   m_SourcePrefab: {fileID: 100100000, guid: 5b6f9caefa8fc8a4b85d546b9d431bb8, type: 3}
 --- !u!1 &963194225
 GameObject:
@@ -1129,6 +1132,18 @@ MonoBehaviour:
   MaxTime: 5
   FuelText: {fileID: 965187411}
   FuelImage: {fileID: 201048890}
+--- !u!114 &2033430582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2033430573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87e32bc0e71822945b802a9eea2a31e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2041490205
 GameObject:
   m_ObjectHideFlags: 0

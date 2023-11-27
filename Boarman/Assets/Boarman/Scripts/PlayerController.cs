@@ -56,7 +56,7 @@ public class PlayerController : MonoBehaviour
     {
         if (transform.position.y < -5)
         {
-            Die();
+          SceneManager.LoadScene(2)   ;
         }
     }
 
