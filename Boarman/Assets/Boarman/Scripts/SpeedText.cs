@@ -20,4 +20,4 @@ public class SpeedText : MonoBehaviour
         CurrentSpeed.SetText("Current Speed: " + PlayerController.speed);
     }
 }
-
+ 
